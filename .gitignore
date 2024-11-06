@@ -11,4 +11,4 @@
 !app/**            # Keep everything inside the app folder
 
 # allow Biran's specific implementation
-Gecko.py
+!Gecko.py
