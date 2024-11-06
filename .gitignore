@@ -1,16 +1,1 @@
-# Ignore everything
-
-!.gitignore        # Always keep the .gitignore file itself
-
-*
-
-# Allow specific files and folders
-!run.py            # Keep the main script to run your Flask app
-!requirements.txt  # Keep requirements.txt for dependencies
-
-# Allow specific folders
-!app/              # Keep the main application folder
-!app/**            # Keep everything inside the app folder
-
-# allow Biran's specific implementation
-Gecko.py
+.idea/
