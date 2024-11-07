@@ -2,13 +2,18 @@
 *
 
 # Allow specific files and folders
-!.gitignore        # Always keep the .gitignore file itself
-!run.py            # Keep the main script to run your Flask app
-!requirements.txt  # Keep requirements.txt for dependencies
+!.gitignore
+!requirements.txt
 
 # Allow specific folders
-!app/              # Keep the main application folder
-!app/**            # Keep everything inside the app folder
+!server/
+!server/**
 
-# allow Biran's specific implementation
-!Gecko.py
+!static/
+!static/**
+
+!util/
+!util/**
+
+# cannot ignore this for firebase page formatting
+!firebase.json
